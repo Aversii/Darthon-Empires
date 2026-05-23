@@ -116,3 +116,5 @@ Resultado esperado:
 ```
 O jogador consegue jogar durante alguns dias apenas evoluindo economia, população e construções.
 ```
+
+<img width="1079" height="605" alt="image" src="https://github.com/user-attachments/assets/9e0195e1-3273-459b-b184-fa8926035031" />
