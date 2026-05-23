@@ -1,8 +1,20 @@
 # Darthon Empires
 
-Darthon Empires é um jogo de navegador inspirado em Imperia Online, onde o jogador assume o papel de governador de um reino.
-
-O jogador começa com uma pequena vila na Era Antiga e precisa administrar população, recursos, construções, produção, bem-estar social, evolução tecnológica e, futuramente, guerras contra outros jogadores.
+<table>
+  <tr>
+    <td width="35%">
+      <img src="https://github.com/user-attachments/assets/706391b5-767d-4f5c-a2b4-7200b92e09b0" alt="Darthon Empires preview" width="100%" />
+    </td>
+    <td width="65%">
+      <p>
+        <strong>Darthon Empires</strong> é um jogo de navegador inspirado em Imperia Online, onde o jogador assume o papel de governador de um reino.
+      </p>
+      <p>
+        O jogador começa com uma pequena vila na Era Antiga e precisa administrar população, recursos, construções, produção, bem-estar social, evolução tecnológica e, futuramente, guerras contra outros jogadores.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Objetivo do projeto
 
