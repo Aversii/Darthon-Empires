@@ -10,7 +10,10 @@
     "migration": "dotenv -e .env.local -- kysely migrate make",
     "migrate": "dotenv -e .env.local -- bash -c \"kysely migrate latest && kysely-codegen --out-file src/db/generated/schema.ts\"",
     "codegen": "dotenv -e .env.local -- kysely-codegen --out-file src/db/generated/schema.ts",
-    "rollback": "dotenv -e .env.local -- kysely migrate rollback --all"
+    "rollback": "dotenv -e .env.local -- kysely migrate rollback --all",
+    "check": "biome check .",
+    "fix": "biome check . --write",
+    "format": "biome format . --write"
   },
   "keywords": [],
   "author": "",
