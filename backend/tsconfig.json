@@ -7,10 +7,13 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "strict": true,
     "moduleDetection": "force",
     "skipLibCheck": true
-  }
+  },
+  "include": ["src/**/*.ts"]
 }
