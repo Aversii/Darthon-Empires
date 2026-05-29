@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/main.ts",
+    "dev": "dotenv -e .env.local -- tsx watch src/main.ts",
     "build": "tsc",
     "start": "node dist/main.js",
     "migration": "dotenv -e .env.local -- kysely migrate make",
@@ -22,7 +22,8 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "kysely": "0.28.14",
-    "pg": "^8.21.0"
+    "pg": "^8.21.0",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
